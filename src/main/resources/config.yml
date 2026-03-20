@@ -1,0 +1,49 @@
+discord:
+  bot-token: "YOUR_BOT_TOKEN_HERE"
+  guild-id: "YOUR_GUILD_ID_HERE"
+  
+sync-settings:
+  sync-on-join: true
+  sync-delay-seconds: 5
+  two-way-sync: true
+  
+  minecraft-to-discord: true
+  discord-to-minecraft: true
+  
+  remove-old-roles: true
+  
+verification:
+  code-length: 6
+  code-expire-minutes: 10
+
+rank-mappings:
+  owner:
+    minecraft-group: "owner"
+    discord-role-id: "123456789012345678"
+  admin:
+    minecraft-group: "admin"
+    discord-role-id: "123456789012345679"
+  moderator:
+    minecraft-group: "mod"
+    discord-role-id: "123456789012345680"
+  vip:
+    minecraft-group: "vip"
+    discord-role-id: "123456789012345681"
+  default:
+    minecraft-group: "default"
+    discord-role-id: "123456789012345682"
+
+messages:
+  prefix: "&8[&bRankSync&8] &f"
+  link-code-generated: "&aCode xác thực của bạn: &e{code}"
+  link-code-instruction: "&aGửi code này cho bot Discord: &e/verify {code}"
+  link-success: "&aTài khoản đã được liên kết thành công!"
+  link-already-linked: "&cBạn đã liên kết tài khoản Discord rồi!"
+  unlink-success: "&aĐã hủy liên kết tài khoản Discord!"
+  unlink-not-linked: "&cBạn chưa liên kết tài khoản Discord!"
+  sync-started: "&aĐang đồng bộ ranks..."
+  sync-completed: "&aĐã đồng bộ {count} tài khoản!"
+  rank-synced: "&aRank của bạn đã được đồng bộ!"
+  no-permission: "&cBạn không có quyền sử dụng lệnh này!"
+  reload-success: "&aĐã tải lại cấu hình!"
+  discord-not-ready: "&cBot Discord chưa sẵn sàng!"

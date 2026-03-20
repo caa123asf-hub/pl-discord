@@ -1,0 +1,23 @@
+name: RankSyncPlugin
+version: 1.0.0
+main: com.ranksync.RankSyncPlugin
+api-version: '1.19'
+author: YourName
+softdepend: [LuckPerms, Vault]
+
+commands:
+  ranksync:
+    description: Main command for rank sync
+    usage: /ranksync <link|unlink|sync|reload>
+    aliases: [rs, sync]
+
+permissions:
+  ranksync.admin:
+    description: Access to all RankSync commands
+    default: op
+  ranksync.link:
+    description: Link Discord account
+    default: true
+  ranksync.unlink:
+    description: Unlink Discord account
+    default: true

@@ -1,0 +1,30 @@
+staff:
+  owner:
+    name: "Owner"
+    discord-id: "123456789012345678"
+    minecraft-group: "owner"
+    description: "Server Owner"
+  
+  admin-1:
+    name: "Admin1"
+    discord-id: "123456789012345679"
+    minecraft-group: "admin"
+    description: "Head Admin"
+  
+  admin-2:
+    name: "Admin2"
+    discord-id: "123456789012345680"
+    minecraft-group: "admin"
+    description: "Admin"
+  
+  mod-1:
+    name: "Moderator1"
+    discord-id: "123456789012345681"
+    minecraft-group: "mod"
+    description: "Senior Moderator"
+  
+  mod-2:
+    name: "Moderator2"
+    discord-id: "123456789012345682"
+    minecraft-group: "mod"
+    description: "Moderator"
